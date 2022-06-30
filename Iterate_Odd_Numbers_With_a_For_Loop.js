@@ -10,11 +10,21 @@ for (let i = 0; i < 10; i += 2) {
 }
 ourArray will now contain [0, 2, 4, 6, 8]. Let's change our initialization so we can count by odd numbers.
 ----------------------------------------------------------------------------------------------------------------------------
-
-Problem: Push the odd numbers from 1 through 9 to myArray using a for loop.
-Solution:
 */
+
+// Problem: Push the odd numbers from 1 through 9 to myArray using a for loop.
+// Solution:
+
 const myArray = [];
 for (let i = 1; i <= 9; i += 2) {
+  myArray.push(i);
+}
+
+
+
+// Problem: Push the odd numbers from 9 through 1 to myArray using a for loop.
+// Solution:
+const myArray = [];
+for (let i=9; i>0; i -= 2){
   myArray.push(i);
 }
